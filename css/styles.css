@@ -1,0 +1,210 @@
+/* Styles... */
+body {
+	margin: 0;
+	
+}
+.videoBackdrop{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -100;
+	/*width: 1920px;
+    height: 1080px;*/
+}
+
+
+.videoBounding {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+video#bgvid { 
+    position: fixed;
+	float: left;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/backgroundLoop.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+.playerClass {
+	top: 0px;
+	z-index: 100;
+	float: left;
+	clear: both;
+	height: 200px;
+	width: 1000px;
+	background-color: #fff;
+height: 562px;
+	
+	
+	
+}
+
+
+
+.wrapper {
+	position: static;
+	top: 0px;
+	z-index: 1;
+	width: 1032px;
+	padding: 0px 16px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.header img {
+	max-width: 160px;
+	height:auto;	
+}
+
+
+.header {
+	margin-bottom: 32px;
+	padding-top: 48px;
+	margin-left: 8px;
+	
+}
+
+
+.article {
+	box-shadow: -10px -10px 0px 0px #fff;
+	background-image: url(../images/TheOne.png);
+	background-size: 100%;
+	width: 100% 100%;
+	height: 562px;
+	
+	
+	
+	
+}
+
+.buttonWrapper {
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: absolute;
+	padding: 24px;
+	margin-bottom: 30px;
+	z-index: 1;
+}
+
+
+.article ul {
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+}
+
+.article ul li {
+	z-index: 1;
+	color: #FFF;
+	display: flex;
+	flex-direction: row;
+	margin: 0px 8px 20px 10px;
+	width: 134px;
+	height: 77px;
+	border: 2px solid white;
+	border-width: 2px 2px;
+	background-color: #fff;
+	
+}
+
+
+.article ul li video {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity ease-in-out .7s;
+}
+
+.article ul li :hover {
+	z-index: 1;
+	opacity: 1;
+}
+
+
+
+
+.article ul li:nth-child(1) {
+	background: url(../images/SkyBlocks/SkyBlock-01.jpg)	
+}
+.article ul li:nth-child(2) {
+	background: url(../images/SkyBlocks/SkyBlock-02.jpg)	
+}
+.article ul li:nth-child(3) {
+	background: url(../images/SkyBlocks/SkyBlock-03.jpg)	
+}
+.article ul li:nth-child(4) {
+	background: url(../images/SkyBlocks/SkyBlock-04.jpg)	
+}
+.article ul li:nth-child(5) {
+	background: url(../images/SkyBlocks/SkyBlock-05.jpg)	
+}
+.article ul li:nth-child(6) {
+	background: url(../images/SkyBlocks/SkyBlock-06.jpg)	
+}
+.article ul li:nth-child(7) {
+	background: url(../images/SkyBlocks/SkyBlock-07.jpg)	
+}
+.article ul li:nth-child(8) {
+	background: url(../images/SkyBlocks/SkyBlock-08.jpg)	
+}
+.article ul li:nth-child(9) {
+	background: url(../images/SkyBlocks/SkyBlock-09.jpg)	
+}
+.article ul li:nth-child(10) {
+	background: url(../images/SkyBlocks/SkyBlock-10.jpg)	
+}
+.article ul li:nth-child(11) {
+	background: url(../images/SkyBlocks/SkyBlock-11.jpg)	
+}
+.article ul li:nth-child(12) {
+	background: url(../images/SkyBlocks/SkyBlock-12.jpg)	
+}
+.article ul li:nth-child(13) {
+	background: url(../images/SkyBlocks/SkyBlock-13.jpg)	
+}
+.article ul li:nth-child(14) {
+	background: url(../images/SkyBlocks/SkyBlock-14.jpg)	
+}
+.article ul li:nth-child(15) {
+	background: url(../images/SkyBlocks/SkyBlock-15.jpg)	
+}
+.article ul li:nth-child(16) {
+	background: url(../images/SkyBlocks/SkyBlock-16.jpg)	
+}
+.article ul li:nth-child(17) {
+	background: url(../images/SkyBlocks/SkyBlock-17.jpg)	
+}
+.article ul li:nth-child(18) {
+	background: url(../images/SkyBlocks/SkyBlock-18.jpg)	
+}
+.article ul li:nth-child(19) {
+	background: url(../images/SkyBlocks/SkyBlock-19.jpg)	
+}
+.article ul li:nth-child(20) {
+	background: url(../images/SkyBlocks/SkyBlock-20.jpg)	
+}
+
+
+
+	
