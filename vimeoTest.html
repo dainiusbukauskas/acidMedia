@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>vimeoTest</title>
+</head>
+
+<body>
+
+<div id="made-in-ny"></div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    var options = {
+        id: 59777392,
+        width: 640,
+        loop: true
+    };
+
+    var player = new Vimeo.Player('made-in-ny', options);
+
+    player.setVolume(0);
+
+    player.on('play', function() {
+        console.log('played the video!');
+    });
+</script>
+
+
+</body>
+</html>
